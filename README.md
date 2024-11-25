@@ -32,3 +32,7 @@ Email (el formulario se encarga de la validación de que el mail tenga formato c
 
 localhost/entregables/
 Futura vista de entregables
+
+localhost/busquedaCamada/
+
+Permite buscar las camadas existentes, tener en cuenta que al momento están creadas desde el número 1 al 4.
