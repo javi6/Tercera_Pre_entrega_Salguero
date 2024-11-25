@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESTUDIANTES</title>
+</head>
+<body>
+    {% extends "App_00/padre.html" %}
+    {% load static %}
+    {% block contenidoQueCambia %}
+    <form action="" method="POST">
+        {% csrf_token %}
+        <p class="lead">Carga Estudiante</p>
+        {{ miFormulario.as_table }}
+        
+        <input type="submit" value="enviar">
+    </form>
+    {% endblock %}
+</body>
+</html>
